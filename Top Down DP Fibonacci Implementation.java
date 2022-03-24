@@ -11,7 +11,7 @@
 		if(arr[n] != 0)
 			return arr[n];
 
-	return	arr[n]=fib(n-1)+fib(n-2);
+	return	arr[n]=fibDP(n-1,arr)+fibDP(n-2,arr);
 		
 	}
 
